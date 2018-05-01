@@ -4,8 +4,8 @@ def identity_block(X, filters, windowSize):
     
     Arguments:
     X -- tensor, input, shape (m, n_Height_prev, n_Width_prev, n_Channel_prev)
-    windowSize -- integer, scanning windows size, kernel_size = (windowSize,windowSize), scanning window shape of the middle CONV in the main path 
     filters -- list of integers for 3 hidden layers, number of filters, main path filters in the CONV layers. 
+    windowSize -- integer, scanning windows size, kernel_size = (windowSize,windowSize), scanning window shape of the middle CONV in the main path 
     
     Returns:
     X -- tensor, output of the identity block, shape (n_Height, n_Weight, n_Channel)
