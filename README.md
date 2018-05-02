@@ -10,5 +10,6 @@ Residual-Network
 
 
 
-![](images/sign_class.png")
+![](images/sign_class.png)
 
+![](images/identity&convolutional_ block-YEN.png)
