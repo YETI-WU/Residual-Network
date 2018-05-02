@@ -1,12 +1,12 @@
 def ResNet50(input_shape = (64, 64, 3), classes = 6):
     """
     Architecture:
-    CONV2D -> BATCHNORM -> RELU -> MAXPOOL  ...(Stage 1)
-    -> CONVBLOCK -> IDBLOCK*2  ................(Stage 2)
-    -> CONVBLOCK -> IDBLOCK*3  ................(Stage 3)
-    -> CONVBLOCK -> IDBLOCK*5  ................(Stage 4)
-    -> CONVBLOCK -> IDBLOCK*2  ................(Stage 5)
-    -> AVGPOOL -> TOPLAYER
+        Conv2D -> Batch_Norm -> ReLU -> Max_Pool  .....(Stage 1)
+         -> Conv_Block -> ID_Block*2  .................(Stage 2)
+         -> Conv_Block -> ID_Block*3  .................(Stage 3)
+         -> Conv_Block -> ID_Block*5  .................(Stage 4)
+         -> Conv_Block -> ID_Block*2  .................(Stage 5)
+         -> AVG_Pool -> Output_Layer
 
     ##### output dimension [ ((n+2p-f)/stride) +1  ,  ((n+2p-f)/stride) +1 ]
     
@@ -54,10 +54,10 @@ def ResNet50(input_shape = (64, 64, 3), classes = 6):
     X = identity_block(X, filters = [512, 512, 2048], windowSize = 3)
     X = identity_block(X, filters = [512, 512, 2048], windowSize = 3)
 
-    # AVGPOOL
+    # AVG_PooL
     X = AveragePooling2D(pool_size=(2,2), strides=(2,2))(X)
 
-    # output layer
+    # Output_Layer
     X = Flatten()(X)
     X = Dense(classes, activation='softmax', kernel_initializer = he_normal())(X)
     
