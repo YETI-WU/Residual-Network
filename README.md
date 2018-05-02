@@ -20,10 +20,10 @@ Add input X to the next next next layer before activation. Since dimension is di
 ## ResNet-50
 Architecture:  
 Conv2D -> Batch_Norm -> ReLU -> Max_Pool  .....(Stage 1)  
- -> Conv_Block -> ID_Block x 2  ......................(Stage 2)  
- -> Conv_Block -> ID_Block x 3  ......................(Stage 3)  
- -> Conv_Block -> ID_Block x 5  ......................(Stage 4)  
- -> Conv_Block -> ID_Block x 2  ......................(Stage 5)  
+ -> Conv_Block -> ID_Block x 2  .....................................(Stage 2)  
+ -> Conv_Block -> ID_Block x 3  .....................................(Stage 3)  
+ -> Conv_Block -> ID_Block x 5  .....................................(Stage 4)  
+ -> Conv_Block -> ID_Block x 2  .....................................(Stage 5)  
  -> AVG_Pool -> Output_Layer
 
 
