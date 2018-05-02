@@ -4,11 +4,11 @@ Residual-Network
 
 
 
-<img src="images/sign_class.png.png" width="100" height="10">
+<img src="images/sign_class.png" width="100" height="10">
 
 
 
 
 
-![](images/sign_class.png.png")
+![](images/sign_class.png")
 
