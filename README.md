@@ -1,15 +1,19 @@
-Residual-Network
-## ResNet
-### Deep residual networks for image recognition, He et al., 2015. https://arxiv.org/pdf/1512.03385.pdf
+# Residual-Network-50
+Ref: Deep residual networks for image recognition, He et al., 2015. https://arxiv.org/pdf/1512.03385.pdf
 
-
-
-<img src="images/sign_class.png" width="100" height="10">
-
-
-
-
-
+## Image classification of Single-Hand-Sign
 ![](images/sign_class.png)
 
-![](images/identity&convolutional_ block-YEN.png)
+## Identity Block & Convolutional Block
+![](images/identity_convolutional_blocks-YEN.png)
+See detail of the parameters: filters, kernel_size, stride, padding
+
+### Identity Block
+Input activation a^[#layer]  Dimension SAME as Output activation a^[#layer+3]
+Add input X to the next next next layer before activation.
+
+### Convolutional Block
+Input activation a^[#layer]  Dimension DIFFERENT than Output activation a^[#layer+3]
+Add input X to the next next next layer before activation. Since dimension is different, a Conv2D for X_shortcut is a must.
+
+
