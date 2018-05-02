@@ -15,7 +15,8 @@ Add input X to the next next next layer before activation.
 ### Convolutional Block
 Input activation a^[#layer]  Dimension DIFFERENT than Output activation a^[#layer+3]  
 Add input X to the next next next layer before activation. Since dimension is different, a Conv2D for X_shortcut is a must.
-
+  
+  
 ## ResNet-50
 Architecture:  
 Conv2D -> Batch_Norm -> ReLU -> Max_Pool  .....(Stage 1)  
