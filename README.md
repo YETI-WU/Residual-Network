@@ -1,5 +1,12 @@
 # Residual-Network-50
-Ref: Deep residual networks for image recognition, He et al., 2015. https://arxiv.org/pdf/1512.03385.pdf
+Ref: Deep residual networks for image recognition, He et al., 2015. https://arxiv.org/pdf/1512.03385.pdf <br />
+
+
+<br />
+## (Still in contruction. Not finished yet ....................)
+<br />
+
+
 
 ## Image classification of Single-Hand-Sign
 ![](images/sign_class.png)
