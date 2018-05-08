@@ -23,7 +23,7 @@ Input activation a^[#layer]  Dimension DIFFERENT than Output activation a^[#laye
 Add input X to the next next next layer before activation. Since dimension is different, a Conv2D for X_shortcut is a must.
   
   
-![](images/identity_convolutional_blocks-YEN.png)  
+![](images/identity_convolutional_blocks.png)  
 See detail of the parameters: filters, kernel_size, stride, padding
 
 
@@ -35,5 +35,5 @@ Conv2D -> Batch_Norm -> ReLU -> Max_Pool  ..........(Stage 1)
  -> Conv_Block -> ID_Block x 5  ..........................................(Stage 4)  
  -> Conv_Block -> ID_Block x 2  ..........................................(Stage 5)  
  -> AVG_Pool -> Output_Layer
-
-
+<br />
+![] (images/ResNet50_Architecture.png)
