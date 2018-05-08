@@ -36,4 +36,4 @@ Conv2D -> Batch_Norm -> ReLU -> Max_Pool  ..........(Stage 1)
  -> Conv_Block -> ID_Block x 2  ..........................................(Stage 5)  
  -> AVG_Pool -> Output_Layer
 <br />
-![] (images/ResNet50_Architecture.png)
+![](images/ResNet50_Architecture.png)
