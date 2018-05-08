@@ -12,8 +12,7 @@ Ref: Deep residual networks for image recognition, He et al., 2015. https://arxi
 ![](images/sign_class.png)
 
 ## Identity Block & Convolutional Block
-![](images/identity_convolutional_blocks-YEN.png)  
-See detail of the parameters: filters, kernel_size, stride, padding
+Two types of blocks in the network, Identity Block (ID_Block) and Convolutional Block (Conv_Block).
 
 ### Identity Block
 Input activation a^[#layer]  Dimension SAME as Output activation a^[#layer+3]  
@@ -24,6 +23,10 @@ Input activation a^[#layer]  Dimension DIFFERENT than Output activation a^[#laye
 Add input X to the next next next layer before activation. Since dimension is different, a Conv2D for X_shortcut is a must.
   
   
+![](images/identity_convolutional_blocks-YEN.png)  
+See detail of the parameters: filters, kernel_size, stride, padding
+
+
 ## ResNet-50
 Architecture:  
 Conv2D -> Batch_Norm -> ReLU -> Max_Pool  ..........(Stage 1)  
