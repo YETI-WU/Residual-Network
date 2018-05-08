@@ -23,7 +23,7 @@ Input activation a^[#layer]  Dimension DIFFERENT than Output activation a^[#laye
 Add input X to the next next next layer before activation. Since dimension is different, a Conv2D for X_shortcut is a must.
   
   
-
+![](images/identity_block_convolutional_block.png)  
 See detail of the parameters: filters, kernel_size, stride, padding
 
 
