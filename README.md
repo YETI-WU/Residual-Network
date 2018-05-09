@@ -1,15 +1,7 @@
 # Residual-Network-50
 Ref: Deep residual networks for image recognition, He et al., 2015. https://arxiv.org/pdf/1512.03385.pdf <br />
-
-
-<br />
-## (Still in contruction. Not finished yet ....................)
-<br />
-
-
-
-
-
+  
+  
 ## Identity Block & Convolutional Block
 Two types of blocks in the network, Identity Block (ID_Block) and Convolutional Block (Conv_Block).
 
