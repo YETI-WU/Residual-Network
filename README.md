@@ -37,9 +37,19 @@ Conv2D -> Batch_Norm -> ReLU -> Max_Pool  ..........(Stage 1)
    
 <br />
 <br />
+
+
 ![](images/ResNet50_Architecture.png)
 <br />
 <br />
+
 ## Demon Image
+![](images/DemoIamge_index337class2.png)
+  
+Randomly pick a number and demo the image & class.
+index = 337 ; class = 2
+<br />
+  
+## Convert to One Hot Encoder
 ## Image Classification of Single-Hand-Sign
 ![](images/sign_class.png)
