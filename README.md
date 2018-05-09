@@ -34,9 +34,12 @@ Conv2D -> Batch_Norm -> ReLU -> Max_Pool  ..........(Stage 1)
  -> Conv_Block -> ID_Block x 5  ..........................................(Stage 4)  
  -> Conv_Block -> ID_Block x 2  ..........................................(Stage 5)  
  -> AVG_Pool -> Output_Layer
+   
+<br />
 <br />
 ![](images/ResNet50_Architecture.png)
 <br />
-
-## Image classification of Single-Hand-Sign
+<br />
+## Demon Image
+## Image Classification of Single-Hand-Sign
 ![](images/sign_class.png)
